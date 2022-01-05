@@ -1,3 +1,4 @@
+Question:
 Create a 2 player shooting game.
 Each player has a health of 100.
 Players can shoot at each other with a random power (0-5) which will reduce the opponent's health.
@@ -9,18 +10,26 @@ On the screen, there should be a button to start the game.
 Once the game finishes, it should update the current score.
 When a player wins 3 games, show the winner of the match.
 
+Answer:
+
 1. start game button
-2. see health of the indivual player 
+2. see health of the indivual player and character
+3. count of player won the matces
+
+if power then reduce the health with random method 
+{
+
 0 - 5 health
 1 - 10 health
 2 - 15 health
 3 - 20 health 
 4 - 25 health
 5 - 30 health
+}
 
-
+change the chracter for each round 
+show winner and losser to 0%
 reduce the health
-scores of the each round
+round count
 5 round of game
-
 update the score
