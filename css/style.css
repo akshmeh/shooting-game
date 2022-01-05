@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.main-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+.start-button{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(114, 114, 114);
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+}
+.play-clip{
+    margin:35%;
+   
+    --side-size: 20px;
+    border-bottom: var(--side-size) solid transparent;
+    border-right: var(--side-size) solid transparent;
+    border-left: calc(2 * var(--side-size) * 0.866) solid rgb(255, 255, 255);
+    border-top: var(--side-size) solid transparent;
+    display: inline-block;
+
+}
+.game-env{
+    display: none;
+    width: calc(100vw - 50%);
+    /* height; */
+    background-color: #eee;
+    flex-direction: row;
+}
+.player{
+    width: 50%;
+}
+.player .health{
+    text-align: center;
+    margin: 10px 0;
+}
+.player .character {
+    text-align: center;
+    margin: 20px 0;
+}
+.result{
+    display: none;
+}
+.matches {
+    display: none;
+    margin: 10px 0;
+    text-align: center;
+}
